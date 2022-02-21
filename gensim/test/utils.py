@@ -71,6 +71,7 @@ import contextlib
 import tempfile
 import os
 import shutil
+import unittest
 
 from gensim.corpora import Dictionary
 from gensim.utils import simple_preprocess
@@ -107,6 +108,8 @@ def datapath(fname):
 
 
     """
+    if os.environ.get("SKIP_DATA_TESTS", False) == "1":
+        raise unittest.SkipTest('Skipping gensim/test/test_data/ requested')
     return os.path.join(module_path, 'test_data', fname)
 
 
