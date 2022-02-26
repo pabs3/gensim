@@ -218,4 +218,9 @@ class LeeCorpus:
                 yield simple_preprocess(line)
 
 
-lee_corpus_list = list(LeeCorpus())
+def __getattr__(name):
+    if name == 'lee_corpus_list':
+        global lee_corpus_list
+        lee_corpus_list = list(LeeCorpus())
+        return lee_corpus_list
+    raise AttributeError(f"module {__name__} has no attribute {name}")
