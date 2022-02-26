@@ -916,14 +916,18 @@ def test_sg_hs_training_fromfile(shrink_windows):
         assert overlap_count >= 2, message
 
 
-with open(datapath('toy-data.txt')) as fin:
-    TOY_SENTENCES = [fin.read().strip().split(' ')]
+TOY_SENTENCES = None
 
 
 def train_gensim(bucket=100, min_count=5):
     #
     # Set parameters to match those in the load_native function
     #
+    # Global toy data so there is one instance for all tests
+    global TOY_SENTENCES
+    if TOY_SENTENCES is None:
+        with open(datapath('toy-data.txt')) as fin:
+            TOY_SENTENCES = [fin.read().strip().split(' ')]
     model = FT_gensim(bucket=bucket, vector_size=5, alpha=0.05, workers=1, sample=0.0001, min_count=min_count)
     model.build_vocab(TOY_SENTENCES)
     model.train(TOY_SENTENCES, total_examples=len(TOY_SENTENCES), epochs=model.epochs)
