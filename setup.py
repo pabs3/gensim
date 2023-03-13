@@ -270,7 +270,9 @@ Copyright (c) 2009-now Radim Rehurek
 
 distributed_env = ['Pyro4 >= 4.27']
 
-visdom_req = ['visdom >= 0.1.8, != 0.1.8.7']
+# FIXME: visdom is not in Debian yet
+#visdom_req = ['visdom >= 0.1.8, != 0.1.8.7']
+visdom_req = []
 
 # packages included for build-testing everywhere
 core_testenv = [
