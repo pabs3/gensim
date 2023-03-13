@@ -579,7 +579,7 @@ def walk(top, topdown=True, onerror=None, followlinks=False, depth=0):
 
     See Also
     --------
-    `os.walk documentation <https://docs.python.org/2/library/os.html#os.walk>`_
+    `os.walk documentation <https://docs.python.org/library/os.html#os.walk>`_
 
     """
     islink, join, isdir = os.path.islink, os.path.join, os.path.isdir

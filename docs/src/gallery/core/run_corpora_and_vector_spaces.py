@@ -212,7 +212,7 @@ print(dictionary)
 # documents are read from (resp. stored to) disk in a lazy fashion, one document at
 # a time, without the whole corpus being read into main memory at once.
 #
-# One of the more notable file formats is the `Market Matrix format <http://math.nist.gov/MatrixMarket/formats.html>`_.
+# One of the more notable file formats is the `Market Matrix format <https://math.nist.gov/MatrixMarket/formats.html>`_.
 # To save a corpus in the Matrix Market format:
 #
 # create a toy corpus of 2 documents, as a plain Python list
@@ -221,7 +221,7 @@ corpus = [[(1, 0.5)], []]  # make one document empty, for the heck of it
 corpora.MmCorpus.serialize('/tmp/corpus.mm', corpus)
 
 ###############################################################################
-# Other formats include `Joachim's SVMlight format <http://svmlight.joachims.org/>`_,
+# Other formats include `Joachim's SVMlight format <https://svmlight.joachims.org/>`_,
 # `Blei's LDA-C format <https://github.com/blei-lab/lda-c>`_ and
 # `GibbsLDA++ format <https://gibbslda.sourceforge.net/>`_.
 
@@ -300,7 +300,7 @@ scipy_csc_matrix = gensim.matutils.corpus2csc(corpus)
 # Optimize converting between corpora and NumPy/SciPy arrays?), see the :ref:`apiref`.
 #
 # .. [1] This is the same corpus as used in
-#        `Deerwester et al. (1990): Indexing by Latent Semantic Analysis <http://www.cs.bham.ac.uk/~pxt/IDA/lsa_ind.pdf>`_, Table 2.
+#        `Deerwester et al. (1990): Indexing by Latent Semantic Analysis <https://www.cs.bham.ac.uk/~pxt/IDA/lsa_ind.pdf>`_, Table 2.
 
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg

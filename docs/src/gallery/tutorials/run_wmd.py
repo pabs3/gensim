@@ -23,7 +23,7 @@ Demonstrates using Gensim's implemenation of the WMD.
 #
 # WMD is illustrated below for two very similar sentences (illustration taken
 # from `Vlad Niculae's blog
-# <http://vene.ro/blog/word-movers-distance-in-python.html>`_). The sentences
+# <https://vene.ro/blog/word-movers-distance-in-python.html>`_). The sentences
 # have no words in common, but by matching the relevant words, WMD is able to
 # accurately measure the (dis)similarity between the two sentences. The method
 # also uses the bag-of-words representation of the documents (simply put, the
@@ -44,7 +44,7 @@ plt.show()
 ###############################################################################
 # This method was introduced in the article "From Word Embeddings To Document
 # Distances" by Matt Kusner et al. (\ `link to PDF
-# <http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf>`_\ ). It is inspired
+# <https://jmlr.org/proceedings/papers/v37/kusnerb15.pdf>`_\ ). It is inspired
 # by the "Earth Mover's Distance", and employs a solver of the "transportation
 # problem".
 #

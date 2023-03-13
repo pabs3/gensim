@@ -685,7 +685,7 @@ class CoherenceModel(interfaces.TransformationABC):
             self.topics = topics
 
             # We evaluate at various values of N and average them. This is a more robust,
-            # according to: http://people.eng.unimelb.edu.au/tbaldwin/pubs/naacl2016.pdf
+            # according to: https://people.eng.unimelb.edu.au/tbaldwin/pubs/naacl2016.pdf
             coherence_at_n = {}
             for n in topn_grid:
                 self.topn = n

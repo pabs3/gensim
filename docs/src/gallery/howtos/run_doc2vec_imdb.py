@@ -37,7 +37,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 # -----------
 #
 # Our data for the tutorial will be the `IMDB archive
-# <http://ai.stanford.edu/~amaas/data/sentiment/>`_.
+# <https://ai.stanford.edu/~amaas/data/sentiment/>`_.
 # If you're not familiar with this dataset, then here's a brief intro: it
 # contains several thousand movie reviews.
 #
@@ -93,7 +93,7 @@ import os.path
 import smart_open
 import gensim.utils
 
-def download_dataset(url='http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz'):
+def download_dataset(url='https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz'):
     fname = url.split('/')[-1]
 
     if os.path.isfile(fname):
@@ -159,7 +159,7 @@ print(f'{len(alldocs)} docs: {len(train_docs)} train-sentiment, {len(test_docs)}
 #
 # We approximate the experiment of Le & Mikolov `"Distributed Representations
 # of Sentences and Documents"
-# <http://cs.stanford.edu/~quocle/paragraph_vector.pdf>`_ with guidance from
+# <https://cs.stanford.edu/~quocle/paragraph_vector.pdf>`_ with guidance from
 # Mikolov's `example go.sh
 # <https://groups.google.com/g/word2vec-toolkit/c/Q49FIrNOQRo/m/J6KG8mUj45sJ>`_::
 #

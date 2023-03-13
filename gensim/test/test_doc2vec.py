@@ -789,7 +789,7 @@ def read_su_sentiment_rotten_tomatoes(dirname, lowercase=True):
     corpus (Rotten Tomatoes reviews), from http://nlp.Stanford.edu/sentiment/
 
     Initialize the corpus from a given directory, where
-    http://nlp.stanford.edu/~socherr/stanfordSentimentTreebank.zip
+    https://nlp.stanford.edu/~socherr/stanfordSentimentTreebank.zip
     has been expanded. It's not too big, so compose entirely into memory.
     """
     logging.info("loading corpus from %s", dirname)

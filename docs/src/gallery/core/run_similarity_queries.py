@@ -69,7 +69,7 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 #
 # To show how this can be done in gensim, let us consider the same corpus as in the
 # previous examples (which really originally comes from Deerwester et al.'s
-# `"Indexing by Latent Semantic Analysis" <http://www.cs.bham.ac.uk/~pxt/IDA/lsa_ind.pdf>`_
+# `"Indexing by Latent Semantic Analysis" <https://www.cs.bham.ac.uk/~pxt/IDA/lsa_ind.pdf>`_
 # seminal 1990 article).
 # To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
 # LSI space:

@@ -238,7 +238,7 @@ os.unlink(tmp.name)
 #   See also :ref:`wiki` for further speed-ups by distributing the computation across
 #   a cluster of computers.
 #
-# * `Random Projections, RP <http://www.cis.hut.fi/ella/publications/randproj_kdd.pdf>`_ aim to
+# * `Random Projections, RP <https://users.ics.aalto.fi/ella/publications/randproj_kdd.pdf>`_ aim to
 #   reduce vector space dimensionality. This is a very efficient (both memory- and
 #   CPU-friendly) approach to approximating TfIdf distances between documents, by throwing in a little randomness.
 #   Recommended target dimensionality is again in the hundreds/thousands, depending on your dataset.
@@ -261,7 +261,7 @@ os.unlink(tmp.name)
 #   `gensim` uses a fast implementation of online LDA parameter estimation based on [2]_,
 #   modified to run in :ref:`distributed mode <distributed>` on a cluster of computers.
 #
-# * `Hierarchical Dirichlet Process, HDP <http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf>`_
+# * `Hierarchical Dirichlet Process, HDP <https://proceedings.mlr.press/v15/wang11a/wang11a.pdf>`_
 #   is a non-parametric bayesian method (note the missing number of requested topics):
 #
 #   .. sourcecode:: pycon

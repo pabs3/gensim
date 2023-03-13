@@ -6,16 +6,16 @@
 #
 # HDP inference code is adapted from the onlinehdp.py script by
 # Chong Wang (chongw at cs.princeton.edu).
-# http://www.cs.princeton.edu/~chongw/software/onlinehdp.tar.gz
+# https://www.cs.princeton.edu/~chongw/software/onlinehdp.tar.gz
 #
 
 
 """Module for `online Hierarchical Dirichlet Processing
-<http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf>`_.
+<https://proceedings.mlr.press/v15/wang11a/wang11a.pdf>`_.
 
 The core estimation code is directly adapted from the `blei-lab/online-hdp <https://github.com/blei-lab/online-hdp>`_
 from `Wang, Paisley, Blei: "Online Variational Inference for the Hierarchical Dirichlet Process",  JMLR (2011)
-<http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf>`_.
+<https://proceedings.mlr.press/v15/wang11a/wang11a.pdf>`_.
 
 Examples
 --------
@@ -170,7 +170,7 @@ class SuffStats:
 
 
 class HdpModel(interfaces.TransformationABC, basemodel.BaseTopicModel):
-    r"""`Hierarchical Dirichlet Process model <http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf>`_
+    r"""`Hierarchical Dirichlet Process model <https://proceedings.mlr.press/v15/wang11a/wang11a.pdf>`_
 
     Topic models promise to help summarize and organize large archives of texts that cannot be easily analyzed by hand.
     Hierarchical Dirichlet process (HDP) is a powerful mixed-membership model for the unsupervised analysis of grouped
@@ -204,7 +204,7 @@ class HdpModel(interfaces.TransformationABC, basemodel.BaseTopicModel):
 
     Now, coming on to the stick breaking construction, the concept understood from the chinese restaurant franchise is
     easily carried over to the stick breaking construction for hdp (`"Figure 1" from "Online Variational Inference
-    for the Hierarchical Dirichlet Process" <http://proceedings.mlr.press/v15/wang11a/wang11a.pdf>`_).
+    for the Hierarchical Dirichlet Process" <https://proceedings.mlr.press/v15/wang11a/wang11a.pdf>`_).
 
     A two level hierarchical dirichlet process is a collection of dirichlet processes :math:`G_{j}` , one for each
     group, which share a base distribution :math:`G_{0}`, which is also a dirichlet process. Also, all :math:`G_{j}`

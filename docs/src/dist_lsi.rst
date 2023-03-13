@@ -168,5 +168,5 @@ takes about 5.25h on my laptop (OS X, C2D 2.53GHz, 4GB RAM with `libVec`).
 In distributed mode with four workers (Linux, dual-core Xeons of 2Ghz, 4GB RAM
 with `ATLAS`), the wallclock time taken drops to 1 hour and 41 minutes. You can
 read more about various internal settings and experiments in my `research
-paper <http://nlp.fi.muni.cz/~xrehurek/nips/rehurek_nips.pdf>`_.
+paper <https://arxiv.org/pdf/1102.5597.pdf>`_.
 

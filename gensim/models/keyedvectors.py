@@ -921,7 +921,7 @@ class KeyedVectors(utils.SaveLoad):
         * `Rémi Flamary et al. "POT: Python Optimal Transport"
           <https://jmlr.org/papers/v22/20-451.html>`_
         * `Matt Kusner et al. "From Word Embeddings To Document Distances"
-          <http://proceedings.mlr.press/v37/kusnerb15.pdf>`_.
+          <https://proceedings.mlr.press/v37/kusnerb15.pdf>`_.
 
         Parameters
         ----------

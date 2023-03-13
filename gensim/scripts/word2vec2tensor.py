@@ -8,7 +8,7 @@
 
 
 """This script allows converting word-vectors from word2vec format into Tensorflow 2D tensor and metadata format.
-This script used for word-vector visualization on `Embedding Visualization <http://projector.tensorflow.org/>`_.
+This script used for word-vector visualization on `Embedding Visualization <https://projector.tensorflow.org/>`_.
 
 
 How to use
@@ -20,7 +20,7 @@ How to use
     python -m gensim.scripts.word2vec2tensor -i ~/gensim-data/glove-wiki-gigaword-50/glove-wiki-gigaword-50.gz \
                                              -o /tmp/my_model_prefix
 
-#. Open http://projector.tensorflow.org/
+#. Open https://projector.tensorflow.org/
 #. Click "Load Data" button from the left menu.
 #. Select "Choose file" in "Load a TSV file of vectors." and choose "/tmp/my_model_prefix_tensor.tsv" file.
 #. Select "Choose file" in "Load a TSV file of metadata." and choose "/tmp/my_model_prefix_metadata.tsv" file.

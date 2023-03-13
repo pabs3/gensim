@@ -49,7 +49,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 # NIPS (Neural Information Processing Systems) is a machine learning conference
 # so the subject matter should be well suited for most of the target audience
 # of this tutorial.  You can download the original data from Sam Roweis'
-# `website <http://www.cs.nyu.edu/~roweis/data.html>`_.  The code below will
+# `website <https://cs.nyu.edu/~roweis/data.html>`_.  The code below will
 # also do that for you.
 #
 # .. Important::

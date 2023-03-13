@@ -81,7 +81,7 @@ MAX_JOBS_QUEUE = 10
 
 # timeout for the Queue object put/get blocking methods.
 # it should theoretically be infinity, but then keyboard interrupts don't work.
-# so this is really just a hack, see http://bugs.python.org/issue1360
+# so this is really just a hack, see https://bugs.python.org/issue1360
 HUGE_TIMEOUT = 365 * 24 * 60 * 60  # one year
 
 LDA_DISPATCHER_PREFIX = 'gensim.lda_dispatcher'

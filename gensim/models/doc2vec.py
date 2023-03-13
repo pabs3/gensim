@@ -11,7 +11,7 @@ Introduction
 
 Learn paragraph and document embeddings via the distributed memory and distributed bag of words models from
 `Quoc Le and Tomas Mikolov: "Distributed Representations of Sentences and Documents"
-<http://arxiv.org/pdf/1405.4053v2.pdf>`_.
+<https://arxiv.org/pdf/1405.4053v2.pdf>`_.
 
 The algorithms use either hierarchical softmax or negative sampling; see
 `Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean: "Efficient Estimation of Word Representations in
@@ -162,7 +162,7 @@ class Doc2Vec(Word2Vec):
             window=5, epochs=10, shrink_windows=True, **kwargs,
         ):
         """Class for training, using and evaluating neural networks described in
-        `Distributed Representations of Sentences and Documents <http://arxiv.org/abs/1405.4053v2>`_.
+        `Distributed Representations of Sentences and Documents <https://arxiv.org/abs/1405.4053v2>`_.
 
         Parameters
         ----------

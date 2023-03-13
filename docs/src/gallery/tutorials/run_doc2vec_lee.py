@@ -353,7 +353,7 @@ for label, index in [('MOST', 0), ('MEDIAN', len(sims)//2), ('LEAST', len(sims) 
 #
 # * `Word2Vec Paper <https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf>`_
 # * `Doc2Vec Paper <https://cs.stanford.edu/~quocle/paragraph_vector.pdf>`_
-# * `Dr. Michael D. Lee's Website <http://faculty.sites.uci.edu/mdlee>`_
-# * `Lee Corpus <http://faculty.sites.uci.edu/mdlee/similarity-data/>`__
+# * `Dr. Michael D. Lee's Website <https://faculty.sites.uci.edu/mdlee>`_
+# * `Lee Corpus <https://faculty.sites.uci.edu/mdlee/similarity-data/>`__
 # * `IMDB Doc2Vec Tutorial <doc2vec-IMDB.ipynb>`_
 #

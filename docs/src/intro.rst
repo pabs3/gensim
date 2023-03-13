@@ -93,7 +93,7 @@ When citing Gensim, please use `this BibTeX entry <bibtex_gensim.bib>`_::
         day = 22,
         publisher = {ELRA},
         address = {Valletta, Malta},
-        note={\url{http://is.muni.cz/publication/884893/en}},
+        note={\url{https://is.muni.cz/publication/884893/en}},
         language={English}
   }
 

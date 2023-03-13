@@ -323,7 +323,7 @@ def remove_file(s):
     -------
     str
         Сopy of `s` with all the 'File:' and 'Image:' markup replaced by their `corresponding captions
-        <http://www.mediawiki.org/wiki/Help:Images>`_.
+        <https://www.mediawiki.org/wiki/Help:Images>`_.
 
     """
     # The regex RE_P15 match a File: or Image: markup
@@ -379,7 +379,7 @@ def get_namespace(tag):
     """
     m = re.match("^{(.*?)}", tag)
     namespace = m.group(1) if m else ""
-    if not namespace.startswith("http://www.mediawiki.org/xml/export-"):
+    if not namespace.startswith("https://www.mediawiki.org/xml/export-"):
         raise ValueError("%s not recognized as MediaWiki dump namespace" % namespace)
     return namespace
 
@@ -549,11 +549,6 @@ class WikiCorpus(TextCorpus):
     ----------
     metadata : bool
         Whether to write articles titles to serialized corpus.
-
-    Warnings
-    --------
-    "Multistream" archives are *not* supported in Python 2 due to `limitations in the core bz2 library
-    <https://docs.python.org/2/library/bz2.html#de-compression-of-files>`_.
 
     Examples
     --------

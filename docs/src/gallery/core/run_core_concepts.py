@@ -22,7 +22,7 @@ import pprint
 # Document
 # --------
 #
-# In Gensim, a *document* is an object of the `text sequence type <https://docs.python.org/3.7/library/stdtypes.html#text-sequence-type-str>`_ (commonly known as ``str`` in Python 3).
+# In Gensim, a *document* is an object of the `text sequence type <https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str>`_ (commonly known as ``str`` in Python 3).
 # A document could be anything from a short 140 character tweet, a single
 # paragraph (i.e., journal article abstract), a news article, or a book.
 #

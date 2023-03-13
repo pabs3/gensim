@@ -1324,7 +1324,7 @@ Apart from the **massive overhaul of all Gensim documentation** (including docst
     - Overall, a **2.5x** speedup & memory usage reduced by **30%**.
 
 * Implemented [Soft Cosine Measure](https://en.wikipedia.org/wiki/Cosine_similarity#Soft_cosine_measure) ([@Witiko](https://github.com/Witiko), [#1827](https://github.com/RaRe-Technologies/gensim/pull/1827))
-    - New method for assessing document similarity, a nice faster alternative to [WMD, Word Mover's Distance](http://proceedings.mlr.press/v37/kusnerb15.pdf)
+    - New method for assessing document similarity, a nice faster alternative to [WMD, Word Mover's Distance](https://proceedings.mlr.press/v37/kusnerb15.pdf)
     - Benchmark
 
       | Technique | MAP score | Duration     |
@@ -1336,8 +1336,8 @@ Apart from the **massive overhaul of all Gensim documentation** (including docst
 
     - [Soft Cosine notebook with detailed description, examples & benchmarks](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/soft_cosine_tutorial.ipynb)
     - Related papers:
-        - [Soft Similarity and Soft Cosine Measure: Similarity of Features in Vector Space Model](http://www.scielo.org.mx/pdf/cys/v18n3/v18n3a7.pdf)
-        - [SimBow at SemEval-2017 Task 3: Soft-Cosine Semantic Similarity between Questions for Community Question Answering](http://www.aclweb.org/anthology/S17-2051)
+        - [Soft Similarity and Soft Cosine Measure: Similarity of Features in Vector Space Model](https://www.scielo.org.mx/pdf/cys/v18n3/v18n3a7.pdf)
+        - [SimBow at SemEval-2017 Task 3: Soft-Cosine Semantic Similarity between Questions for Community Question Answering](https://aclanthology.org/S17-2051/)
         - [Vector Space Representations in IR](https://github.com/witiko-masters-thesis/thesis/blob/master/main.pdf)
 
 
@@ -2366,8 +2366,8 @@ Tutorial and doc improvements:
 * new matutils.argsort with partial sort
   - performance speedups to all similarity queries (word2vec, Similarity classes...)
 * word2vec can compute likelihood scores for classification (Mat Addy, #358)
-  - http://arxiv.org/abs/1504.07295
-  - http://nbviewer.ipython.org/github/taddylab/deepir/blob/master/w2v-inversion.ipynb
+  - https://arxiv.org/abs/1504.07295
+  - https://nbviewer.org/github/taddylab/deepir/blob/master/w2v-inversion.ipynb
 * word2vec supports "encoding" parameter when loading from C format, for non-utf8 models
 * more memory-efficient word2vec training (#385)
 * fixes to Python3 compatibility (Pavel Kalaidin #330, S-Eugene #369)

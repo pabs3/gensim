@@ -23,7 +23,7 @@ preferred-citation:
   pages: 5
   title: "Software Framework for Topic Modelling with Large Corpora"
   languages: ["eng"]
-  url: "http://is.muni.cz/publication/884893/en"
+  url: "https://is.muni.cz/publication/884893/en"
   conference:
     name: "Proceedings of LREC 2010 workshop New Challenges for NLP Frameworks"
     city: Valetta
