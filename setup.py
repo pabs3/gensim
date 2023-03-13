@@ -290,7 +290,8 @@ if not sys.platform.lower().startswith("win") and sys.version_info[:2] < (3, 10)
     #
     # nmslib wheels not available for Python 3.10 and 3.11 as of Dec 2022
     #
-    core_testenv.append('nmslib')
+    #FIXME: nmslib is not in Debian yet
+    #core_testenv.append('nmslib')
 
 # Add additional requirements for testing on Linux that are skipped on Windows.
 linux_testenv = core_testenv[:] + visdom_req
